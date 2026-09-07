@@ -44,3 +44,4 @@ next-env.d.ts
 .npmrc
 .npm-cache
 .temp
+package-lock.json
