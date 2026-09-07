@@ -167,7 +167,12 @@ export default function Home() {
             {/* 1. Pilih Gunung Berapi */}
             <VolcanoSelector
               selectedVolcano={selectedVolcano}
-              onSelectVolcano={(volcano) => setSelectedVolcano(volcano)}
+              onSelectVolcano={(volcano) => {
+                setSelectedVolcano(volcano);
+                if (volcano.defaultCity) {
+                  setTargetLocation(volcano.defaultCity);
+                }
+              }}
             />
 
             {/* 2. Cari Kota / Kecamatan */}

@@ -19,6 +19,7 @@ export interface VolcanoData {
   aviationSummary: string;
   description: string;
   monitoringPost: string;
+  defaultCity?: { name: string; lat: number; lon: number };
 }
 
 export interface WindAtmosphereData {

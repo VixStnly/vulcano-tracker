@@ -17,7 +17,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Abu vulkanik teramati membubung hingga ketinggian 2.000 meter di atas permukaan laut. Sebaran abu melayang mengikuti pola angin troposfer Selat Sunda.',
     description: 'Gunung api aktif tipe kaldera/pulau vulkanik di Selat Sunda. Sering menghasilkan kolom abu vulkanik abu-abu hingga hitam pekat dengan ancaman lontaran material pijar dan hujan abu ke wilayah pesisir Banten dan Lampung Selatan.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Pasauran, Serang, Banten'
+    monitoringPost: 'Pos Pengamatan Gunungapi Pasauran, Serang, Banten',
+    defaultCity: { name: 'Bogor', lat: -6.596356, lon: 106.797319 }
   },
   {
     id: 'merapi',
@@ -35,7 +36,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Awan panas guguran teramati ke arah barat daya (Kali Bebeng dan Kali Krasak). Sebaran abu vulkanik terbawa angin ke arah timur dan tenggara.',
     description: 'Gunung api strato aktif tipe eksplosif-efusif dengan kubah lava aktif. Terkenal dengan fenomena Awan Panas Guguran (Wedhus Gembel) yang mengancam lereng selatan dan barat daya.',
-    monitoringPost: 'Balai Penyelidikan dan Pengembangan Teknologi Kebencanaan Geologi (BPPTKG) Yogyakarta'
+    monitoringPost: 'Balai Penyelidikan dan Pengembangan Teknologi Kebencanaan Geologi (BPPTKG) Yogyakarta',
+    defaultCity: { name: 'Sleman', lat: -7.688300, lon: 110.339600 }
   },
   {
     id: 'semeru',
@@ -53,7 +55,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Erupsi strombolian berkala dengan kolom asap putih kelabu membubung 800 - 1.500m dari kawah Jonggring Saloko. Abu terbawa angin ke arah barat daya.',
     description: 'Puncak tertinggi di Pulau Jawa dengan aktivitas vulkanik harian berupa letusan tipe Vulkanian dan aliran lahar dingin di sepanjang aliran Besuk Kobokan.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Semeru, Gunung Sawur, Lumajang'
+    monitoringPost: 'Pos Pengamatan Gunungapi Semeru, Gunung Sawur, Lumajang',
+    defaultCity: { name: 'Lumajang', lat: -8.133300, lon: 113.216700 }
   },
   {
     id: 'lewotobi-lakilaki',
@@ -71,7 +74,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'RED',
     aviationSummary: 'Kolom erupsi masif mencapai 3.500 meter di atas puncak. Hujan abu tebal terpantau melanda bandara Frans Seda Maumere dan permukiman sekitar Wulanggitang.',
     description: 'Gunung api kembar di Flores Timur yang sedang mengalami peningkatan fase erupsi eksplosif tinggi dengan lontaran batu dan hujan abu vulkanik lebat.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Lewotobi Laki-laki, Pululera, Wulanggitang'
+    monitoringPost: 'Pos Pengamatan Gunungapi Lewotobi Laki-laki, Pululera, Wulanggitang',
+    defaultCity: { name: 'Maumere', lat: -8.620000, lon: 122.210000 }
   },
   {
     id: 'marapi',
@@ -89,7 +93,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Kolom abu vulkanik teramati berwarna kelabu hingga hitam membubung setinggi 1.600 meter condong ke arah timur laut.',
     description: 'Gunung api kompleks paling aktif di Sumatera Barat dengan letusan freatik dan magmatik berulang tanpa tanda precursor seismik yang panjang.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Marapi, Bukittinggi, Sumatera Barat'
+    monitoringPost: 'Pos Pengamatan Gunungapi Marapi, Bukittinggi, Sumatera Barat',
+    defaultCity: { name: 'Bukittinggi', lat: -0.305500, lon: 100.369200 }
   },
   {
     id: 'ruang',
@@ -107,7 +112,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Aktivitas kegempaan vulkanik dalam masih terekam tinggi. Emisi asap dan gas belerang tebal terpantau menyebar di perairan Laut Sulawesi.',
     description: 'Pulau gunung api stratovolcano di Kepulauan Sangihe yang berpotensi memicu gelombang tsunami bila terjadi keruntuhan dinding kawah ke laut.',
-    monitoringPost: 'Pos PGA Ruang, Tagulandang, Kep. Sitaro'
+    monitoringPost: 'Pos PGA Ruang, Tagulandang, Kep. Sitaro',
+    defaultCity: { name: 'Tagulandang (Kep. Sitaro)', lat: 2.336400, lon: 125.416800 }
   },
   {
     id: 'ibu',
@@ -125,7 +131,8 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'ORANGE',
     aviationSummary: 'Erupsi menerus dengan dentuman kuat dan lontaran lava pijar hingga 1.000 meter ke arah utara dan barat laut.',
     description: 'Gunung api aktif di Halmahera dengan kubah lava di kawah bagian dalam dan frekuensi letusan harian yang sangat intensif.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Ibu, Gam Ici, Ibu, Halmahera Barat'
+    monitoringPost: 'Pos Pengamatan Gunungapi Ibu, Gam Ici, Ibu, Halmahera Barat',
+    defaultCity: { name: 'Gam Ici (Halmahera Barat)', lat: 1.450000, lon: 127.583300 }
   },
   {
     id: 'sinabung',
@@ -143,32 +150,54 @@ export const INDONESIA_VOLCANOES: VolcanoData[] = [
     vonaColorCode: 'YELLOW',
     aviationSummary: 'Emisi asap kawah bertekanan lemah hingga sedang berwarna putih dengan intensitas tipis hingga sedang.',
     description: 'Gunung api strato di Dataran Tinggi Karo yang kembali aktif sejak 2010 setelah tidur selama lebih dari 400 tahun.',
-    monitoringPost: 'Pos Pengamatan Gunungapi Sinabung, Ndokum Siroga, Simpang Empat, Karo'
+    monitoringPost: 'Pos Pengamatan Gunungapi Sinabung, Ndokum Siroga, Simpang Empat, Karo',
+    defaultCity: { name: 'Berastagi (Karo)', lat: 3.183300, lon: 98.516700 }
   }
 ];
 
 export const PRESET_CITIES = [
+  // Krakatau / Banten / Jabar
   { name: 'Bogor', province: 'Jawa Barat', lat: -6.596356, lon: 106.797319, type: 'Kota' },
   { name: 'Bandar Lampung', province: 'Lampung', lat: -5.429741, lon: 105.262520, type: 'Kota' },
   { name: 'Cilegon', province: 'Banten', lat: -6.017399, lon: 106.053818, type: 'Kota' },
   { name: 'Serang', province: 'Banten', lat: -6.110375, lon: 106.163986, type: 'Kota' },
   { name: 'Anyer (Kecamatan)', province: 'Serang, Banten', lat: -6.052600, lon: 105.929800, type: 'Kecamatan' },
   { name: 'Kalianda (Kecamatan)', province: 'Lampung Selatan', lat: -5.733500, lon: 105.591200, type: 'Kecamatan' },
-  { name: 'Pandeglang', province: 'Banten', lat: -6.308800, lon: 106.106500, type: 'Kabupaten' },
   { name: 'Jakarta Pusat', province: 'DKI Jakarta', lat: -6.175392, lon: 106.827153, type: 'Kota' },
   { name: 'Tangerang', province: 'Banten', lat: -6.178306, lon: 106.631889, type: 'Kota' },
   { name: 'Depok', province: 'Jawa Barat', lat: -6.402484, lon: 106.794241, type: 'Kota' },
   { name: 'Bekasi', province: 'Jawa Barat', lat: -6.238270, lon: 106.975571, type: 'Kota' },
   { name: 'Sukabumi', province: 'Jawa Barat', lat: -6.927725, lon: 106.929886, type: 'Kota' },
+
+  // Merapi / DIY & Jateng
   { name: 'Yogyakarta', province: 'D.I. Yogyakarta', lat: -7.795580, lon: 110.369490, type: 'Kota' },
   { name: 'Sleman', province: 'D.I. Yogyakarta', lat: -7.688300, lon: 110.339600, type: 'Kabupaten' },
   { name: 'Magelang', province: 'Jawa Tengah', lat: -7.470500, lon: 110.217800, type: 'Kota' },
   { name: 'Boyolali', province: 'Jawa Tengah', lat: -7.536100, lon: 110.594400, type: 'Kabupaten' },
   { name: 'Klaten', province: 'Jawa Tengah', lat: -7.705600, lon: 110.604400, type: 'Kabupaten' },
+
+  // Semeru / Jawa Timur
   { name: 'Malang', province: 'Jawa Timur', lat: -7.979700, lon: 112.630400, type: 'Kota' },
   { name: 'Lumajang', province: 'Jawa Timur', lat: -8.133300, lon: 113.216700, type: 'Kabupaten' },
+
+  // Lewotobi / NTT
   { name: 'Maumere', province: 'Nusa Tenggara Timur', lat: -8.620000, lon: 122.210000, type: 'Kota' },
   { name: 'Larantuka', province: 'Flores Timur, NTT', lat: -8.341700, lon: 122.983300, type: 'Kecamatan' },
+  { name: 'Wulanggitang (Kecamatan)', province: 'Flores Timur, NTT', lat: -8.541700, lon: 122.783300, type: 'Kecamatan' },
+
+  // Marapi / Sumbar
   { name: 'Bukittinggi', province: 'Sumatera Barat', lat: -0.305500, lon: 100.369200, type: 'Kota' },
-  { name: 'Padang Panjang', province: 'Sumatera Barat', lat: -0.463600, lon: 100.398600, type: 'Kota' }
+  { name: 'Padang Panjang', province: 'Sumatera Barat', lat: -0.463600, lon: 100.398600, type: 'Kota' },
+
+  // Ruang / Sulut
+  { name: 'Tagulandang (Kep. Sitaro)', province: 'Sulawesi Utara', lat: 2.336400, lon: 125.416800, type: 'Kecamatan' },
+  { name: 'Manado', province: 'Sulawesi Utara', lat: 1.474800, lon: 124.842800, type: 'Kota' },
+
+  // Ibu / Maluku Utara
+  { name: 'Gam Ici (Halmahera Barat)', province: 'Maluku Utara', lat: 1.450000, lon: 127.583300, type: 'Kecamatan' },
+  { name: 'Ternate', province: 'Maluku Utara', lat: 0.789300, lon: 127.361000, type: 'Kota' },
+
+  // Sinabung / Sumut
+  { name: 'Berastagi (Karo)', province: 'Sumatera Utara', lat: 3.183300, lon: 98.516700, type: 'Kecamatan' },
+  { name: 'Medan', province: 'Sumatera Utara', lat: 3.595200, lon: 98.672200, type: 'Kota' }
 ];
