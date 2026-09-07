@@ -2,7 +2,10 @@
 nixPkgs = ["nodejs_20"]
 
 [phases.install]
-cmds = ["npm install"]
+cmds = [
+  "npm install",
+  "npm install --no-save lightningcss-linux-x64-gnu @tailwindcss/oxide-linux-x64-gnu @next/swc-linux-x64-gnu"
+]
 
 [phases.build]
 cmds = ["npm run build"]
